@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finlogix Widget</title>
+</head>
+<body>
+    <h2>Real-Time Market Updates</h2>
+    <div class="finlogix-container"></div>
+    <script type="text/javascript" src="https://widget.finlogix.com/Widget.js"></script>
+    <script>
+        Widget.init({
+            widgetId: "4d5d8a63-8b6a-4134-8f77-60bad2b47eff",
+            type: "NewsFeed",
+            language: "en",
+            showBrand: true,
+            isShowTradeButton: true,
+            isShowBeneathLink: true,
+            isShowDataFromACYInfo: true,
+            isAdaptive: true,
+            withBorderBox: true
+        });
+    </script>
+</body>
+</html>
